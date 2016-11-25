@@ -4,8 +4,8 @@ My final project for the [Udacity machine learning engineer nanodegree course](h
 
 Why might this be interesting? If you're getting in to deep CNNs and want to see an example in tensorflow that is:
 - **integrated into TensorBoard**, logging all interesting variables and letting you view the graph
-- **parameterised**, building the network dynamically for each run based on a set of specified hyperparameters that define the depth, convolution sizes, learning rates, regularisation approach, etc
-- **inspectable**, returning not just the predictions but also the weights and the logits of the test set to explore what's happening
+- **parameterised**, building the network dynamically for each run based on a list of hyperparameters
+- **inspectable**, returning not just the predictions but also weights and test logits to see what's going on
 - **reasonably good on a CPU**, with 92% accuracy achieved in 9 hours training time.
 
 The code for this project is contained entirely in five iPython notebooks:
@@ -26,5 +26,3 @@ All required import modules are shown at the top of each notebook. The main modu
 - os, sys, tarfile, six.moves
 - matplotlib, seaborn
 - timeit, time
-
-Test images taken with my camera are in the test_photos folder in the zip file containing the project submission.
