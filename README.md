@@ -18,7 +18,7 @@ The code for this project consists of five iPython notebooks:
 
 The solution was inspired by Ian J. Goodfellow, Yaroslav Bulatov, Julian Ibarz, Sacha Arnoud, Vinay Shet's paper [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42241.pdf).
 
-The implementation module builds a graph that looks something like this (depending on the layers you specify):
+The implementation module builds a graph that looks something like this (depending on the parameters you specify):
 ![alt text](../master/Images/Tensorboard_graph.png)
 
 With convolutional layers that look like this:
