@@ -21,7 +21,10 @@ The solution was inspired by Ian J. Goodfellow, Yaroslav Bulatov, Julian Ibarz, 
 The implementation module builds a graph that looks something like this (depending on the layers you specify):
 ![alt text](../master/Images/Tensorboard_graph.png)
 
-And it produces results that look something like this:
+With convolutional layers that look like this:
+![alt text](../master/Images/Tensorboard_graph_zoom.png)
+
+Producing results that look something like this:
 ![alt text](../master/Images/results.png)
 
 The Python version used was 2.7.6.
