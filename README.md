@@ -24,12 +24,13 @@ The implementation module builds a graph that looks something like this (dependi
 With convolutional layers that look like this:
 ![alt text](../master/Images/Tensorboard_graph_zoom.png)
 
-Producing results that look something like this:
+Generating learning curves that look like this:
+![alt text](../master/Images/Learning_curves.png)
+
+Producing results that look like this:
 ![alt text](../master/Images/results.png)
 
-The Python version used was 2.7.6.
-
-All required import modules are shown at the top of each notebook. The main modules are 
+The Python version used was 2.7.6. The main modules used were: 
 - tensorflow
 - numpy, pandas, scipy, random
 - os, sys, tarfile, six.moves
